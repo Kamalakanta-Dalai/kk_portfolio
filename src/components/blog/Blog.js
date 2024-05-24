@@ -12,29 +12,29 @@ const Blog = () => {
         <div className="px-6">
           <BlogCard
             image={blogImgOne}
-            title="September 16, 2020"
-            subTitle="UI & UX Conference at Lviv 2022"
-            category="Travel"
+            title="May 24, 2023"
+            subTitle="1st Live Concert Experience"
+            category="Entertainment"
           />
           <BlogCard
             image={blogImgTwo}
-            title="July 15, 2020"
-            subTitle="How to become a creative designer"
-            category="Documentation"
+            title="December 28, 20231"
+            subTitle="Nahi Milta Cover Song"
+            category="Music"
           />
         </div>
         <div className="px-6">
           <BlogCard
             image={blogImgThree}
-            title="July 13, 2020"
-            subTitle="Designer Conference at Florida, USA 2020"
-            category="Documentation"
+            title="Jan 03, 2023"
+            subTitle="My 1st Vlog On YouTube"
+            category="Vlog & Entertainment"
           />
           <BlogCard
             image={blogImgFour}
-            title="July 14, 2020"
-            subTitle="Designers thoughts about mobile UI templates"
-            category="Travel"
+            title="Jan 14, 2023"
+            subTitle="My Cameraman Works With 0 Salary"
+            category="Entertainment"
           />
         </div>
       </div>

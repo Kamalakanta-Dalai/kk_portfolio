@@ -26,7 +26,7 @@ const MyServices = () => {
       />
       <ServicesCard
         icons={<ImVideoCamera />}
-        title="Vide Editor"
+        title="Video Editor"
         subTitle="I'm a filmic video editor using DaVinci Resolve, CapCut, and Adobe, with expertise in After Effects for animations, creating cinematic and engaging visual content."
       />
     </div>

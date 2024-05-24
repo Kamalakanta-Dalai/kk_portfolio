@@ -51,7 +51,7 @@ const Contact = () => {
       setErrMessage(true);
     }
     if (clientName && email && EmailValidation(email) && messages) {
-      axios.post("https://getform.io/f/e18ee560-5133-4cfe-9a48-eddb6f012a9f", {
+      axios.post("https://formsubmit.co/5e531ef7e2612d862e87e8516f068e8a", {
         name: clientName,
         email: email,
         message: messages,
@@ -93,7 +93,7 @@ const Contact = () => {
             <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
               Freelance:
             </span>
-            Abailable
+            Available
           </p>
         </div>
       </div>
@@ -105,8 +105,10 @@ const Contact = () => {
           </p>
         ) : (
           <form
+            // ref={form}
             id="form"
-            action="https://formsubmit.co/workmail0452@gmail.com"
+            // onSubmit={handleSend}
+            action="https://formsubmit.co/5e531ef7e2612d862e87e8516f068e8a"
             method="POST"
             className="p-6 flex flex-col gap-6"
           >
@@ -140,7 +142,7 @@ const Contact = () => {
             <textarea
               onChange={handleMessages}
               value={messages}
-              name="messages"
+              name="message"
               className={`${
                 errMessages
                   ? "border-red-600 focus-visible:border-red-600"
